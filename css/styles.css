@@ -10,3 +10,60 @@ html {
 *, *:before, *:after {
 	box-sizing: inherit;
 }
+body {
+	background-color: #F0F0F0;
+}
+#principal {
+	display: flex;
+	flex-wrap: wrap;
+}
+.logo {
+	margin: 20px;
+	display: block;
+}
+#entrada {
+	margin: 20px;
+	padding: 10px;
+	font-size: 20px;
+	border: none;
+	background-color: #F0F0F0;
+	min-height: 300px;
+}
+#entrada:focus {
+	outline: none;
+}
+#col-entrada {
+	margin: 0 auto;
+}
+#col-resultado {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	align-items: center;
+	padding: 10px;
+	font-size: 18px;
+	background-color: #fff;
+	border-radius: 20px;
+	width: 300px;
+	margin: 0 auto;
+}
+#btn-copiar {
+	display: none;
+}
+.btn-custom {
+	width: 180px;
+}
+#div-botones {
+	margin: 20px;
+}
+#resultado {
+	margin: 20px;
+	font-size: 18px;
+}
+#info {
+	margin: 20px;
+	font-size: 14px;
+}
+.dibujo {
+	width: 100%;
+}

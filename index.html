@@ -7,16 +7,38 @@
 
     <!-- Archivo CSS de Bootstrap -->
     <link type="text/css" rel="stylesheet" href="css/bootstrap.min.css">
-	<!-- Archivos CSS personalizados -->
-	<link type="text/css" rel="stylesheet" href="css/styles.css">
+    <!-- Archivos CSS personalizados -->
+    <link type="text/css" rel="stylesheet" href="css/styles.css">
 
-    <title>Hello, world!</title>
+    <title>Encriptador - Desencriptador</title>
   </head>
   <body>
-    <h1>Hello, world!</h1>
+    <div class="container">
+      <img class="logo" src="img/Logo.png" alt="Logo de Alura">
+      <div id="principal">
+        <div id="col-entrada">
+          <textarea id="entrada" placeholder="Ingrese su texto aquí"></textarea>
+          <div id="div-botones">
+            <button id="btn-enc" class="btn btn-primary">Encriptar!</button>
+            <button id="btn-des" class="btn btn-primary">Desencriptar!</button>
+          </div>
+        </div>
+        <div id="col-resultado">
+          <div id="texto-resultado">
+            <img class="dibujo d-none d-md-block"" src="img/MuÑeco.png" >
+            <p id="resultado">Ningún mensaje fue encontrado</p>
+            <p id="info">Introduce el texto que desees encriptar o desencriptar</p>
+          </div>
+          <button id="btn-copiar" onclick="" class="btn btn-primary btn-custom">Copiar</button>
+        </div>
+      </div>
+    </div>
+ 
 
     <!-- Archivos JavaScript de Bootstrap -->
     <script src="js/jquery-3.3.1.min.js"></script>
     <script src="js/bootstrap.bundle.min.js"></script>
+    <!-- Archivos Javascript del proyecto -->
+    <script src="js/main.js"></script>
   </body>
 </html>
