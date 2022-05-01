@@ -43,7 +43,7 @@ function mostrarResultado(texto) {
         btnCopiar.style.display = "block";
     } else {
         textoResultado.innerHTML = `
-        <img class="dibujo d-none d-md-block" src="img/MuÑeco.png" >
+        <img class="dibujo d-none d-md-block" src="img/Munieco.png" >
         <p id="resultado">Ningún mensaje fue encontrado</p>
         <p id="info">Introduce el texto que desees encriptar o desencriptar</p>
         `;
