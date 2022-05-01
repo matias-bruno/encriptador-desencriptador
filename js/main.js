@@ -24,7 +24,7 @@ let btndes = document.querySelector("#btn-des");
     mostrarResultado(texto);
     input.value = "";
 };
-btnCopiar = document.querySelector("#btn-copiar");
+let btnCopiar = document.querySelector("#btn-copiar");
 btnCopiar.onclick = function() {
     let auxInput = document.createElement("input");
     auxInput.value = document.querySelector("#resultado").innerText;
