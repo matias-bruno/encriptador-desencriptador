@@ -47,6 +47,10 @@ body {
 	width: 300px;
 	margin: 0 auto;
 }
+#texto-resultado {
+	width: 100%;
+	overflow-wrap: break-word;
+}
 #btn-copiar {
 	display: none;
 }
