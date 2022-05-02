@@ -55,9 +55,12 @@ body {
 	display: none;
 }
 .btn-custom {
-	width: 180px;
+	width: 150px;
 }
 #div-botones {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
 	margin: 20px;
 }
 #resultado {

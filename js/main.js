@@ -12,7 +12,7 @@ btnenc.onclick = function() {
     input.value = "";
 };
 let btndes = document.querySelector("#btn-des");
-    btndes.onclick = function() {
+btndes.onclick = function() {
     let input = document.querySelector("#entrada");
     let texto = input.value;
     texto = texto.replaceAll("enter", "e");
