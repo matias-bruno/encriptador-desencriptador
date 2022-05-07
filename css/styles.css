@@ -28,6 +28,7 @@ body {
 	border: none;
 	background-color: #F0F0F0;
 	min-height: 300px;
+	width: 90%;
 }
 #entrada:focus {
 	outline: none;
@@ -45,7 +46,7 @@ body {
 	background-color: #fff;
 	border-radius: 20px;
 	width: 300px;
-	margin: 0 auto;
+	margin: 0 auto 20px;
 }
 #texto-resultado {
 	width: 100%;
