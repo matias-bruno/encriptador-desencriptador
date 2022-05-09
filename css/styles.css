@@ -59,10 +59,10 @@ body {
 	width: 150px;
 }
 #div-botones {
-	display: flex;
-	flex-wrap: wrap;
-	justify-content: center;
-	margin: 20px;
+		display: flex;
+		flex-wrap: wrap;
+		justify-content: center;
+		margin: 20px;
 }
 #resultado {
 	margin: 20px;
@@ -74,4 +74,8 @@ body {
 }
 .dibujo {
 	width: 100%;
+}
+#info-letras {
+	display: flex;
+	margin: 20px 30px;
 }
