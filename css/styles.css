@@ -13,13 +13,18 @@ html {
 body {
 	background-color: #F0F0F0;
 }
+#titulo {
+	text-align: center;
+	display: block;
+	margin: 20px;
+	font-family: Arial, Helvetica, sans-serif;
+}
 #principal {
 	display: flex;
 	flex-wrap: wrap;
 }
 .logo {
-	margin: 20px;
-	display: block;
+	margin-left: 20px;
 }
 #entrada {
 	margin: 20px;
@@ -59,10 +64,10 @@ body {
 	width: 150px;
 }
 #div-botones {
-		display: flex;
-		flex-wrap: wrap;
-		justify-content: center;
-		margin: 20px;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	margin: 20px;
 }
 #resultado {
 	margin: 20px;
@@ -76,6 +81,6 @@ body {
 	width: 100%;
 }
 #info-letras {
-	display: flex;
 	margin: 20px 30px;
+	text-align: center;
 }
